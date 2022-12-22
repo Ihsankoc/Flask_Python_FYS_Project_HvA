@@ -1,0 +1,55 @@
+body {
+    background-color: lightgrey;
+}
+
+.topnav {
+    background-color: white;
+    border: 1px solid #e7e7e7;
+    padding-bottom: 15px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+    display: inline;
+}
+
+
+li a {
+  color: black;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+
+}
+
+a {
+  padding: 10px;
+  background-color: white;
+  border-color: lightcoral;
+}
+
+.form {
+    background-color: antiquewhite;
+    width: 400px;
+    padding: 50px;
+}
+
+h1 {
+    background-color: lightcoral;
+    width: 550px;
+}
+
+.video {
+    text-align: center;
+}
+
+.logout_button {
+    text-align: center;
+}

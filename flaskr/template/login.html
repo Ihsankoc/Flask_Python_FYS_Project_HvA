@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+    <title>Welcome to Corendon</title>
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<center><h1>Welcome to Corendon Login Page</h1></center>
+{{data}}
+<br><br>
+<center>
+<form class="form" action="info" id="" method="POST">
+      <div class="container">
+        <label><b>Username</b></label><br>
+        <input type="text" placeholder="Enter Your Name and Surname" name="name" id="name" required><br>
+        <label ><b>Password</b></label><br>
+        <input type="password" placeholder="Enter Your Ticket Number" name="ticket_no" id="ticket_no" required><br><br>
+        <input type="checkbox" id="algemenevoorwaarden" name="algemenevoorwaarden" value="voorwaarden" required>
+        <label for="algemenevoorwaarden"><a href="https://www.corendon.nl/algemene-voorwaarden" target="_blank">U gaat akkoord met onze algemene voorwaarden</a></label><br><br>
+        <button type="submit">Login</button><br><br>
+      </div>
+</form>
+</center>
+{% endblock %}
+
